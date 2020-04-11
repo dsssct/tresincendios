@@ -1,19 +1,53 @@
-body
-{
+/****************************TAG SELECTORS********************************/
+body {
   background-color: #ffdfdf;
 }
-h1{
+
+h1 {
   color: #315b96;
-}
-h3{
-  color: #315b96;
+
 }
 
+
+h3 {
+  color: #315b96;
+}
 
 hr {
   border-style: dotted none none;
   border-color: grey;
   border-width: 8px;
   width: 9%;
+}
+img:hover {
+  border-color:#fe346e;
+}
 
+/*************************CLASS SELECTORS************************/
+.SQUAREimg{
+  border-style: groove;
+  border-width: 3px;
+  border-color: #233567
+}
+.coverimg{
+  border-style: outset;
+  border-width: 2px;
+  border-color: #fbc1bc;
+}
+.headhr{
+  border-style: groove;
+  border-color: black;
+  border-width: 1.11px;
+  width: 77%
+}
+/*************************ID SELECTORS************************/
+
+
+
+#encabezado {
+
+
+
+  background-color:#fbc1bc;
+  width: 42%
 }
