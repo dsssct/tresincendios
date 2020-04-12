@@ -145,7 +145,8 @@ table {
 .historiaimg{
   float: right;
   width: 27%;
-  height: 234px;
-  margin-left: 30px;
+  margin-left:21px;
+  margin-top:21px;
+
 }
 /*************************ID SELECTORS************************/
