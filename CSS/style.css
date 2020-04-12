@@ -30,6 +30,10 @@ hr {
 img:hover {
   border-color: #fe346e;
 }
+table{
+  margin: 0 auto;
+  text-align: justify;
+}
 
 /*************************CLASS SELECTORS************************/
 
@@ -61,9 +65,19 @@ img:hover {
   border-width: 0 2.111px 0 2.111px;
   width: 20.1%;
 }
+.middlecontainer{
+
+}
+.contact-me{
+  background-color: #f5c3bc;
+
+
+}
+
 
 .bottomcontainer {
-  background-color: #e9e2d0;
+
+
 }
 .top2017{
   position:absolute;
