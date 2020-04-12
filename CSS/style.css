@@ -8,8 +8,7 @@ a{
   color: #2c003e;
 }
 h1 {
-  margin: 6px auto 0 auto;
-  line-height: 2;
+  margin: 3px auto 0 auto;
   font-size: 4.2rem;
   font-family: 'Oxygen', sans-serif;
   color:#11999E;
@@ -72,6 +71,7 @@ table {
 */
 .description{
   font-weight: normal;
+  width: 66%
 }
 
 .headhr {
@@ -79,28 +79,42 @@ table {
   border-color: black;
   border-width: 1.11px;
 }
+.us-row{
+  line-height: 1.2;
+  text-align: left;
+  margin: 100px auto;
+  width: 66.6%;
+
+}
 
 .fosoforospng {
-  padding-top: 66px;
+  width: 15.333%;
+  padding-top: 51px;
+}
+.matchbox{
+  width: 27%;
 }
 
 .socialmediacontainer {
-  background-color: #fae3d9;
-  border-style: groove;
-  border-color: black;
-  border-width: 0 2.111px 0 2.111px;
+  font-weight: lighter;
+  border-width: 0 2.1111px 0 2.1111px;
   width: 20.1%;
 }
 
 .middlecontainer {}
+.mision-row{
+
+  }
 
 .contact-me {
   background-color: #f5c3bc;
-  width: 21%;
+  width: 39.999%;
   margin: 0 auto;
 }
 
-.bottomcontainer {}
+.bottomcontainer {
+
+}
 
 .top2017 {
   position: absolute;
@@ -114,5 +128,24 @@ table {
   LEFT: 312px;
   bottom: 72px;
 }
+.copyriht{
+  position: static;
+  width: 15%;
+  font-size: .12rem;
+  font-weight: lighter;
+}
 
+.misionimg{
+  float: left;
+  width: 27%;
+  margin-right: 30px;
+  position: relative;
+  bottom: 21px;
+}
+.historiaimg{
+  float: right;
+  width: 27%;
+  height: 234px;
+  margin-left: 30px;
+}
 /*************************ID SELECTORS************************/
