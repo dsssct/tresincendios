@@ -1,13 +1,22 @@
 /****************************TAG SELECTORS********************************/
 body {
   background-color: #ffdfdf;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 h1 {
+    font-family: 'Oxygen', sans-serif;
   color: #315b96;
+
+
 }
 
 h3 {
+  font-family: 'Spectral', serif;
+
+
   color: #315b96;
 }
 
@@ -23,20 +32,12 @@ img:hover {
 }
 
 /*************************CLASS SELECTORS************************/
-.logoimg {
-  display: inline-block;
-  border-style: groove;
-  border-width: 3px;
-  border-color: #233567
-}
+
 .topcontainer {
-  display: inline-block;
+  position: relative;
   background-color: #f5c3bc;
   border-style: none;
-  padding: .666%;
-  position: relative;
-  left:462px;
-  bottom:202px;
+  padding-top: 100px;
 }
 /*
 .coverimg {
@@ -50,7 +51,6 @@ img:hover {
   border-style: groove;
   border-color: black;
   border-width: 1.11px;
-  width: 77%
 }
 
 
@@ -64,6 +64,16 @@ img:hover {
 
 .bottomcontainer {
   background-color: #e9e2d0;
+}
+.top2017{
+  position:absolute;
+  RIGHT:270px;
+  top: 50px;
+}
+.bottom2017{
+  position: absolute;
+  LEFT: 270px;
+  bottom: 21px;
 }
 
 /*************************ID SELECTORS************************/
