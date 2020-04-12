@@ -5,9 +5,7 @@ body {
 
 h1 {
   color: #315b96;
-
 }
-
 
 h3 {
   color: #315b96;
@@ -19,35 +17,53 @@ hr {
   border-width: 8px;
   width: 9%;
 }
+
 img:hover {
-  border-color:#fe346e;
+  border-color: #fe346e;
 }
 
 /*************************CLASS SELECTORS************************/
-.SQUAREimg{
+.logoimg {
+  display: inline-block;
   border-style: groove;
   border-width: 3px;
   border-color: #233567
 }
-.coverimg{
+.topcontainer {
+  display: inline-block;
+  background-color: #f5c3bc;
+  border-style: none;
+  padding: .666%;
+  position: relative;
+  left:432px;
+  bottom:210px;
+}
+/*
+.coverimg {
   border-style: outset;
   border-width: 2px;
   border-color: #fbc1bc;
 }
-.headhr{
+*/
+
+.headhr {
   border-style: groove;
   border-color: black;
   border-width: 1.11px;
   width: 77%
 }
-/*************************ID SELECTORS************************/
 
 
-
-#encabezado {
-
-
-
-  background-color:#fbc1bc;
-  width: 42%
+.socialmediacontainer {
+  background-color: #fae3d9;
+  border-style: groove;
+  border-color: black;
+  border-width: 0 2.111px 0 2.111px;
+  width: 20.1%;
 }
+
+.bottomcontainer {
+  background-color: #e9e2d0;
+}
+
+/*************************ID SELECTORS************************/
