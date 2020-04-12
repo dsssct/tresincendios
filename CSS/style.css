@@ -4,12 +4,15 @@ body {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+a{
+  color: #2c003e;
+}
 h1 {
   margin: 6px auto 0 auto;
+  line-height: 2;
   font-size: 4.2rem;
   font-family: 'Oxygen', sans-serif;
-  color: #315b96;
+  color:#11999E;
 }
 
 h2 {
@@ -20,14 +23,15 @@ h2 {
 
 h3 {
   font-family: 'Spectral', serif;
-  color: #315b96;
+  color: #2c003e;
 }
 
 h4 {
   width: 60%;
   margin: 0 auto;
   font-family: 'Spectral', serif;
-  font-size: 1.2rem;
+  font-size: 1.14rem;
+  color: #11999E;
 }
 
 hr {
@@ -66,6 +70,10 @@ table {
   border-color: #fbc1bc;
 }
 */
+.description{
+  font-weight: normal;
+}
+
 .headhr {
   border-style: groove;
   border-color: black;
@@ -96,14 +104,14 @@ table {
 
 .top2017 {
   position: absolute;
-  RIGHT: 333px;
+  RIGHT: 279px;
   top: 270px;
 }
 
 .bottom2017 {
   display: block;
   position: absolute;
-  LEFT: 366px;
+  LEFT: 312px;
   bottom: 72px;
 }
 
