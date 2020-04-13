@@ -3,21 +3,31 @@ body {
   background-color: #ffdfdf;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
 }
-a{
-  color: #2c003e;
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #204051;
+  text-decoration: none;
+  margin: 0 4.3px 3px 4.3px;
 }
+a:hover{
+  color: #fe346e;
+}
+
 h1 {
   margin: 3px auto 0 auto;
   font-size: 4.2rem;
   font-family: 'Oxygen', sans-serif;
-  color:#11999E;
+  color: #11999E;
 }
 
 h2 {
   font-family: 'Spectral', serif;
   font-size: 2.1rem;
   padding-top: 10px;
+  color: #11999E;
 }
 
 h3 {
@@ -35,25 +45,22 @@ h4 {
 
 hr {
   border-style: dotted none none;
-  border-color: black;
+  border-color: #404b69;
   border-width: 5.55px;
   width: 39.66%;
 }
 
-img:hover {
-  border-color: #fe346e;
-}
 
 table {
   margin: 0 auto;
-  text-align: justify;
+  text-align: left;
 }
-
 /*************************CLASS SELECTORS************************/
 .topcontainer {
   position: relative;
   background-color: #f5c3bc;
   border-style: none;
+  margin: 0 0 0 0;
   padding-top: 100px;
 }
 
@@ -69,9 +76,10 @@ table {
   border-color: #fbc1bc;
 }
 */
-.description{
+.description {
   font-weight: normal;
-  width: 66%
+  width: 62.4%;
+  margin: 0 auto;
 }
 
 .headhr {
@@ -79,74 +87,77 @@ table {
   border-color: black;
   border-width: 1.11px;
 }
-.us-row{
+
+.us-row {
   line-height: 1.2;
   text-align: left;
   margin: 100px auto;
   width: 66.6%;
-
 }
 
 .fosoforospng {
   width: 15.333%;
   padding-top: 51px;
 }
-.matchbox{
+
+.matchbox {
   width: 27%;
 }
 
-.socialmediacontainer {
-  font-weight: lighter;
-  border-width: 0 2.1111px 0 2.1111px;
-  width: 20.1%;
+.middle-container {
+  background-color: #ffdfdf;
+  margin: 0;
 }
 
-.middlecontainer {}
-.mision-row{
 
-  }
-
-.contact-me {
-  background-color: #f5c3bc;
-  width: 39.999%;
+.infohr {
+  width: 9%;
   margin: 0 auto;
 }
 
-.bottomcontainer {
+.contact-me {
+  margin: 0;
+}
 
+.bottom-container {
+  background-color: #f5c3bc;
+  padding: .333% 0;
 }
 
 .top2017 {
   position: absolute;
-  RIGHT: 279px;
-  top: 270px;
+  RIGHT: 30px;
+  top: 30px;
 }
 
 .bottom2017 {
-  display: block;
   position: absolute;
-  LEFT: 312px;
-  bottom: 72px;
+  LEFT: 30px;
+  bottom: 30px;
 }
-.copyriht{
-  position: static;
+
+.copyriht {
   width: 15%;
   font-size: .12rem;
   font-weight: lighter;
+  margin-bottom: 0;
+  padding: 12px 0;
 }
 
-.misionimg{
+.misionimg {
   float: left;
   width: 27%;
   margin-right: 30px;
   position: relative;
   bottom: 21px;
 }
-.historiaimg{
+
+.bioimg{
   float: right;
   width: 27%;
-  margin-left:21px;
-  margin-top:21px;
-
+  margin-left: 21px;
+  margin-top: 21px;
 }
+
+
 /*************************ID SELECTORS************************/
