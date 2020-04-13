@@ -137,11 +137,10 @@ table {
 }
 
 .copyriht {
-  width: 15%;
-  font-size: .12rem;
+  font-size: .51rem;
   font-weight: lighter;
   margin-bottom: 0;
-  padding: 12px 0;
+  padding: 12px;
 }
 
 .misionimg {
