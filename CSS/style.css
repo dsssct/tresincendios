@@ -18,14 +18,14 @@ a:hover{
 
 h1 {
   margin: 3px auto 0 auto;
-  font-size: 4.2rem;
+  font-size: 3.6rem;
   font-family: 'Oxygen', sans-serif;
   color: #11999E;
 }
 
 h2 {
   font-family: 'Spectral', serif;
-  font-size: 2.1rem;
+  font-size: 2rem;
   padding-top: 10px;
   color: #11999E;
 }
@@ -39,7 +39,7 @@ h4 {
   width: 60%;
   margin: 0 auto;
   font-family: 'Spectral', serif;
-  font-size: 1.14rem;
+  font-size: 1rem;
   color: #11999E;
 }
 
@@ -56,12 +56,19 @@ table {
   text-align: left;
 }
 /*************************CLASS SELECTORS************************/
+.containter-fluid{
+  padding: 3.3% 12%;
+  background-color: #f5c3bc;
+}
 .topcontainer {
   position: relative;
   background-color: #f5c3bc;
   border-style: none;
   margin: 0 0 0 0;
-  padding-top: 100px;
+  padding-top: 33px;
+}
+.navbar-brand{
+  font-weight: 800;
 }
 
 .bio {
@@ -69,17 +76,13 @@ table {
   text-align: left;
 }
 
-/*
-.coverimg {
-  border-style: outset;
-  border-width: 2px;
-  border-color: #fbc1bc;
-}
-*/
 .description {
-  font-weight: normal;
-  width: 62.4%;
-  margin: 0 auto;
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin: 9% 9% 3% 3%;
+  text-align: left;
+  color: #204051;
+  line-height: 1.2;
 }
 
 .headhr {
@@ -91,17 +94,18 @@ table {
 .us-row {
   line-height: 1.2;
   text-align: left;
-  margin: 100px auto;
-  width: 66.6%;
+  margin: 60px auto;
+  width: 80.1%;
 }
 
 .fosoforospng {
   width: 15.333%;
-  padding-top: 51px;
+  padding-top: 57px;
 }
 
 .matchbox {
-  width: 27%;
+  width: 66%;
+  margin:3% 24% 3% 3%;
 }
 
 .middle-container {
@@ -116,24 +120,12 @@ table {
 }
 
 .contact-me {
-  margin: 0;
+  margin: 0 auto 0 auto;
 }
 
 .bottom-container {
   background-color: #f5c3bc;
   padding: .333% 0;
-}
-
-.top2017 {
-  position: absolute;
-  RIGHT: 30px;
-  top: 30px;
-}
-
-.bottom2017 {
-  position: absolute;
-  LEFT: 30px;
-  bottom: 30px;
 }
 
 .copyriht {
@@ -157,44 +149,10 @@ table {
   margin-left: 21px;
   margin-top: 21px;
 }
-.BUTTON_CKP {
-   background: #3D94F6;
-   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
-   font-family: Open Sans;
-   font-size: 40px;
-   font-weight: 100;
-   padding: 40px;
-   box-shadow: 1px 1px 20px 0px #000000;
-   -webkit-box-shadow: 1px 1px 20px 0px #000000;
-   -moz-box-shadow: 1px 1px 20px 0px #000000;
-   text-shadow: 1px 1px 20px #000000;
-   border: solid #337FED 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
 }
 
-.BUTTON_CKP:hover {
-   border: solid #337FED 1px;
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
-}
 
 /*************************ID SELECTORS************************/
