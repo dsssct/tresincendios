@@ -12,83 +12,99 @@ a {
   text-decoration: none;
   margin: 0 4.3px 3px 4.3px;
 }
-a:hover{
+
+a:hover {
   color: #fe346e;
 }
-
-h1 {
-  margin: 3px auto 0 auto;
-  font-size: 3.6rem;
-  font-family: 'Oxygen', sans-serif;
-  color: #11999E;
+h1{
+  font-family: 'Spectral', serif;
+  font-size: 2.7rem;
+  font-weight: 900;
+  text-align: left;
+  color: #347474;
 }
 
 h2 {
   font-family: 'Spectral', serif;
   font-size: 2rem;
   padding-top: 10px;
-  color: #204051;
+  color: #347474;
 }
 
 h3 {
   font-family: 'Spectral', serif;
-  color: #2c003e;
-}
-
-h4 {
-  width: 60%;
-  margin: 0 auto;
-  font-family: 'Spectral', serif;
-  font-size: 1rem;
-  color: #11999E;
+  color: #010a43;
 }
 
 hr {
   border-style: dotted none none;
   border-color: #404b69;
   border-width: 5.55px;
-  width: 39.66%;
+  width: 18.66%;
 }
-
 
 table {
   margin: 0 auto;
   text-align: left;
 }
+
 /*************************CLASS SELECTORS************************/
-.containter-fluid{
-  padding: 3.3% 12%;
+.containter-fluid {
+  padding: 6% 15%;
   background-color: #f5c3bc;
 }
+
+/* TITLE */
+.navbar-brand {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-left: 0;
+}
+
+.nav-item {
+  margin: 0 9px;
+}
+
 .topcontainer {
   position: relative;
   background-color: #f5c3bc;
   border-style: none;
-  margin: 0 0 0 0;
-  padding-top: 33px;
-}
-.navbar-brand{
-  font-weight: 800;
-}
-
-.bio {
-  margin: auto 24%;
-  text-align: left;
+  margin: 0;
+  padding-top: 39px;
 }
 
 .description {
-  font-size: 2.4rem;
-  font-weight: 300;
-  margin: 9% 9% 3% 3%;
-  text-align: left;
-  color: #204051;
-  line-height: 1.2;
+  padding-top: 102px;
+  padding-left: 0;
 }
 
-.headhr {
-  border-style: groove;
-  border-color: black;
-  border-width: 1.11px;
+.matchbox {
+  width: 450px;
+  margin: 39px 39px 39px 0;
+}
+/* ALINEAR BOTON */
+.bandcamp{
+  padding: 18px;
+  text-align: left;
+  display: block;
+  margin-left: 0;
+}
+/* BANDAS */
+.fosoforospng {
+  width: 600px;
+  padding-top: 57px;
+}
+
+.middle-container {
+  background-color: #ffdfdf;
+  margin: 0;
+}
+
+/* NOSOTROS */
+.bio {
+  margin: auto 24%;
+  text-align: left;
 }
 
 .us-row {
@@ -98,41 +114,11 @@ table {
   width: 80.1%;
 }
 
-.fosoforospng {
-  width: 15.333%;
-  padding-top: 57px;
-}
-
-.matchbox {
-  width: 66%;
-  margin:3% 24% 3% 3%;
-}
-
-.middle-container {
-  background-color: #ffdfdf;
-  margin: 0;
-}
-
-
-.infohr {
-  width: 9%;
-  margin: 0 auto;
-}
-
-.contact-me {
-  margin: 0 auto 0 auto;
-}
-
-.bottom-container {
-  background-color: #f5c3bc;
-  padding: .333% 0;
-}
-
-.copyriht {
-  font-size: .81rem;
-  font-weight: lighter;
-  margin-bottom: 0;
-  padding: 12px;
+.bioimg {
+  float: right;
+  width: 27%;
+  margin-left: 21px;
+  margin-top: 21px;
 }
 
 .misionimg {
@@ -143,16 +129,29 @@ table {
   bottom: 21px;
 }
 
-.bioimg{
-  float: right;
-  width: 27%;
-  margin-left: 21px;
-  margin-top: 21px;
-}
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
+/* CONTACTO */
+.contact-me {
+  margin: 0 auto 0 auto;
 }
 
+/* REDES */
+.bottom-container {
+  background-color: #f5c3bc;
+  padding: .333% 0;
+}
+
+/* DERECHOS */
+.copyriht {
+  font-size: .81rem;
+  font-weight: lighter;
+  margin-bottom: 0;
+  padding: 12px;
+}
+
+/* NUESTRAINFO */
+.infohr {
+  width: 9%;
+  margin: 0 auto;
+}
 
 /*************************ID SELECTORS************************/
