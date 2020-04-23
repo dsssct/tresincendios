@@ -43,7 +43,7 @@ h4 {
   font-family: 'Oxygen', sans-serif;
   font-size: .9rem;
   margin-left: 0;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 hr {
@@ -58,11 +58,6 @@ p {
 }
 
 /*************************CLASS SELECTORS************************/
-#cabeza {
-  padding: 6% 15%;
-  background-color: #f5c3bc;
-}
-
 /* TITLE */
 .navbar-brand {
   font-family: 'Oxygen', sans-serif;
@@ -104,8 +99,21 @@ p {
 /* .release-art{
 } */
 #releases {
-  padding: 6% 12%;
+  padding: 3% 12% 6%;
   background-color: #ffdfdf;
+}
+
+.lanzamientos-carousel {
+  width: 1113px;
+  height: 222px;
+  object-fit: cover;
+  padding: 0;
+  margin: 0 0 6%;
+}
+
+.carousel-1 {
+  text-align: center;
+  margin-top: 1.5%;
 }
 
 .image {
@@ -132,20 +140,14 @@ p {
 .lanzamientos {
   width: 212px;
   padding: 0;
-  margin-left:0 ;
-  margin-right: 0;
-  margin-bottom: 0;
-  border-left-width: 0;
-  border-bottom-width: 0;
-  border-right-width: 0;
-  border-top-width: 0;
-  margin-top: 0;
+  margin: 0;
 }
 
 .artist-release {
   font-family: 'Spectral';
   font-size: .9rem;
-    color: black;
+  color: black;
+  padding-top: 1.8%;
 }
 
 .text-rel {
@@ -154,7 +156,8 @@ p {
 
 /* NOSOTROS */
 #nosotros {
-  padding: 6% 24%;
+  padding: 6% 21%;
+  background-color: #fff0f5
 }
 
 .us-row {
@@ -177,7 +180,7 @@ p {
 
 /* CONTACTO */
 #contact-me {
-  padding: 6% 18%;
+  padding: 12% 18%;
 }
 
 /* REDES */
@@ -205,6 +208,11 @@ p {
 }
 
 /*************************ID SELECTORS************************/
+#cabeza {
+  padding: 6% 15%;
+  background-color: #f5c3bc;
+}
+
 /* CSSMEDIAQUERY */
 @media (max-width:994px) {
   p {
