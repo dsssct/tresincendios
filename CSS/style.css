@@ -209,3 +209,13 @@ a:hover {
     margin-right: auto;
   }
 }
+
+.artist{
+  width: 144px;
+  margin-right: 3%;
+  float: left;
+}
+#artistas-bandas{
+  padding: 6% 12%;
+  text-align: left;
+}
