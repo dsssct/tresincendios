@@ -18,7 +18,8 @@ p {
 a {
   color: #204051;
   text-decoration: none;
-  margin: 0 4.3px 3px;
+margin: 0;
+padding: 0;
 }
 
 a:hover {
@@ -59,6 +60,14 @@ a:hover {
 }
 /* TITLE */
 
+#cabeza{
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+  padding:8px 0;
+}
+
 .navbar-brand {
   font-family: 'Oxygen', sans-serif;
   font-size: 1.4rem;
@@ -67,7 +76,11 @@ a:hover {
 }
 
 .nav-item {
-  margin: 0 9px;
+  margin: 0;
+}
+
+.nav-link{
+  padding: 8px 0px 8px 0px;
 }
 
 .description {
@@ -78,6 +91,7 @@ a:hover {
 .matchbox {
   width: 450px;
   border-radius: 100%;
+  text-align: left;
 }
 
 .bandcamp {
@@ -110,7 +124,7 @@ a:hover {
 
 .image {
   width: 212px;
-  padding-bottom: 6%;
+  padding:0 0 6% 0;
 }
 
 .link-img {
@@ -155,6 +169,10 @@ a:hover {
 /* CONTACTO */
 #contact-me {
   padding: 12% 18%;
+}
+
+.social-link{
+  margin: 0 6px 0 3px;
 }
 
 /* DERECHOS */
