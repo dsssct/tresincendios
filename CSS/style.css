@@ -217,6 +217,9 @@ a:hover {
   body {
     text-align: center;
   }
+  .container-fluid {
+    padding: 6% 6%;
+  }
   .release-btn{
     text-align: center;
   }
