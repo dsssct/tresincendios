@@ -4,7 +4,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 5.1%;
   background-color: #f5c3bc;
-
 }
 
 h1, h2, h3 {
@@ -56,10 +55,12 @@ a:hover {
 .container-fluid {
   padding: 9% 15%;
 }
-#cabeza , .container-fluid {
+
+#cabeza, .container-fluid {
   padding: 3% 12% 3%;
   margin: 0;
 }
+
 /* COLORS */
 .dark {
   background-color: #f5c3bc;
@@ -78,9 +79,9 @@ a:hover {
   padding: 0;
   margin: 0;
 }
-.sticky-top{
-  background-color: #f5c3bc;
 
+.sticky-top {
+  background-color: #f5c3bc;
 }
 
 .top {
@@ -108,18 +109,19 @@ a:hover {
 }
 
 .description {
-  padding-top: 102px;
+  padding-top: 12%;
   padding-left: 0;
 }
 
 .matchbox {
   width: 100%;
-  padding: 12% 12% 3%;
+  padding: 9% 18% .9%;
 }
 
 .cont-fos {
   width: 100%;
   padding: 0;
+  margin-left: auto;
 }
 
 .bandcamp {
@@ -142,16 +144,14 @@ a:hover {
   margin: 0 0 5.1%;
   border: none;
   border-radius: 1.5%;
-
 }
-
 
 .image {
   width: 212px;
   padding: 4.2% 3% 0;
 }
 
-.release-pg  .image {
+.release-pg .image {
   width: 212px;
   padding: 0 3% 6% 0;
 }
@@ -171,11 +171,13 @@ a:hover {
   font-size: .84rem;
   padding-top: 1.8%;
 }
-.release-btn{
+
+.release-btn {
   text-align: right;
   padding: 0;
   margin: 0;
 }
+
 /* NOSOTROS */
 #nosotros {
   padding: 12% 21%;
@@ -230,15 +232,31 @@ a:hover {
     font-size: 1.5rem;
     text-align: center;
   }
-  #cabeza , .container-fluid {
+  p{
+    font-size: 2.1rem;
+
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+
+  #cabeza, .container-fluid {
     padding: 3%;
   }
+
+  .navbar-toggler-icon {
+    font-size: 3.9rem;
+  }
+
   .navbar {
-    padding: .6% 3% .6%;
+    padding: .3% 3% .03%;
   }
+
   .navbar-brand {
-    font-size: 2.1rem;
+    font-size: 3rem;
   }
+
   .nav-link {
     font-size: 3rem;
   }
@@ -246,7 +264,9 @@ a:hover {
   .nav-item {
     margin: 0;
   }
-  .release-btn{
+
+
+  .release-btn {
     text-align: center;
   }
 
@@ -260,11 +280,17 @@ a:hover {
     display: inline-block;
     font-size: 2.1rem;
   }
-
+  #releases {
+    padding: 3%;
+  }
   .image {
     width: 212px;
-    padding: .7%;
+    padding: 6% 6%;
   }
+  #nosotros {
+    padding: 3%;
+  }
+
   .bioimg {
     float: none;
     display: block;
