@@ -7,7 +7,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Spectral', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #347474;
 }
 
@@ -31,7 +31,7 @@ a:hover {
 /* HEADINGS */
 .big-heading {
   font-size: 2.7rem;
-  font-weight: 900;
+  font-weight: 300;
 }
 
 .subtitle {
@@ -49,6 +49,26 @@ a:hover {
 /* STYLES */
 .row {
   margin: 0;
+}
+
+.artist-name-text {
+  text-decoration: none;
+}
+
+.artist-name-text:hover {
+  color: #fe346e;
+}
+
+.card-header {
+  padding: 0;
+}
+
+.text-muted {
+  font-size: .9rem;
+}
+
+.news-entry{
+  padding: 1.2%
 }
 
 /* CONTAINERS */
@@ -96,7 +116,7 @@ a:hover {
 .navbar-brand {
   font-family: 'Oxygen', sans-serif;
   font-size: 1.4rem;
-  font-weight: 900;
+  font-weight: black;
   margin-left: 0;
 }
 
@@ -219,7 +239,7 @@ a:hover {
 
 /* INFO.html */
 .fosoforospng {
-  width: 51%;
+  width: 63%;
 }
 
 #our-info {
@@ -232,9 +252,9 @@ a:hover {
     font-size: 1.5rem;
     text-align: center;
   }
-  p{
-    font-size: 2.1rem;
 
+  p {
+    font-size: 2.1rem;
   }
 
   .container-fluid {
@@ -265,7 +285,6 @@ a:hover {
     margin: 0;
   }
 
-
   .release-btn {
     text-align: center;
   }
@@ -280,13 +299,16 @@ a:hover {
     display: inline-block;
     font-size: 2.1rem;
   }
+
   #releases {
     padding: 3%;
   }
+
   .image {
     width: 212px;
     padding: 6% 6%;
   }
+
   #nosotros {
     padding: 3%;
   }
@@ -314,4 +336,46 @@ a:hover {
 
 #artistas-bandas {
   padding: 6% 12%;
+}
+
+.divagaciones {
+  padding: 6% 0 0;
+}
+
+.text-preview{
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  text-decoration-color: none;
+  font-size: .9rem;
+}
+
+.art{
+  padding: 0;
+  width: 100%;
+}
+.arte-header{
+  width: 100%;
+  object-fit: cover;
+  padding: 3% 0 0;
+  margin: 0;
+  border: none;
+  border-radius: 1.5%;
+}
+.YT-video{
+  width: 100%;
+  height: 100%;
+  padding: 3.9% 3.9% 0;
+}
+
+.featured{
+padding: 9% 0 0;
+}
+
+#headingOne{
+  color: black;
+  text-decoration: none;
+}
+#resenasUno{
+  padding-top: 6%;
 }
